@@ -36,3 +36,4 @@ if [[ -s "$VENV_WRAPPER_PATH" ]]; then
   source $VENV_WRAPPER_PATH
 fi
 
+[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
