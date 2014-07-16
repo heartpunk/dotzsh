@@ -37,3 +37,6 @@ if [[ -s "$VENV_WRAPPER_PATH" ]]; then
 fi
 
 [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
+
+alias unvcsh="unset GIT_DIR"
+alias resource="source ~/.zshrc"
