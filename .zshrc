@@ -38,5 +38,9 @@ fi
 
 [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
 
+# make go work
+export GOPATH="$HOME/.gopath"
+export PATH="$GOPATH/bin:$PATH"
+
 alias resource="source ~/.zshrc"
 alias ezshrc="vim ~/.zshrc&&resource"
