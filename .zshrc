@@ -44,3 +44,5 @@ export PATH="$GOPATH/bin:$PATH"
 
 alias resource="source ~/.zshrc"
 alias ezshrc="vim ~/.zshrc&&resource"
+
+alias -g tree="tree -C"
