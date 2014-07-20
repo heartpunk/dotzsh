@@ -38,5 +38,5 @@ fi
 
 [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
 
-alias unvcsh="unset GIT_DIR"
 alias resource="source ~/.zshrc"
+alias ezshrc="vim ~/.zshrc&&resource"
