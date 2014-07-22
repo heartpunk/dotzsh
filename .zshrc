@@ -46,3 +46,5 @@ alias resource="source ~/.zshrc"
 alias ezshrc="vim ~/.zshrc&&resource"
 
 alias -g tree="tree -C"
+
+export JAVA_HOME="$(/usr/libexec/java_home)"
