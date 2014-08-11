@@ -7,8 +7,6 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
-export UPDATE_ZSH_DAYS=2
-
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
 
