@@ -33,6 +33,9 @@ fi
 export GOPATH="$HOME/.gopath"
 export PATH="$GOPATH/bin:$PATH"
 
+# make cabal work
+export PATH="$HOME/.cabal/bin:$PATH"
+
 alias resource="source ~/.zshrc"
 alias ezshrc="vim ~/.zshrc&&resource"
 
