@@ -21,13 +21,6 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
 VENV_WRAPPER_PATH="/usr/local/bin/virtualenvwrapper.sh"
 if [[ -s "$VENV_WRAPPER_PATH" ]]; then
   export WORKON_HOME=~/.virtual_envs
