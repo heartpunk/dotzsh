@@ -30,6 +30,9 @@ function git_status_wrapper() {
 }
 
 alias -g gs="git_status_wrapper"
+alias -g p="git push"
+alias -g pi="git add -p"
+alias -g ci="git commit -m"
 
 # pythonz
 [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
