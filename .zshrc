@@ -19,6 +19,18 @@ if [[ -s "$VENV_WRAPPER_PATH" ]]; then
   source $VENV_WRAPPER_PATH
 fi
 
+# git shortcuts
+
+function git_status_wrapper() {
+  if [ -n $GIT_DIR ] || [[ $GIT_DIR == "/Users/tehgeekmeister/.config/vcsh/repo.d"* ]]; then
+    git status -uno
+  else
+    git status
+  fi
+}
+
+alias -g gs="git_status_wrapper"
+
 # pythonz
 [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
 
